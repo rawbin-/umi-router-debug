@@ -6,5 +6,7 @@ export default defineConfig({
   },
   routes,
   fastRefresh: {},
-  layout: {},
+  // layout: {},
+  mfsu: {},
+  webpack5: {},
 });

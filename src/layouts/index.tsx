@@ -1,19 +1,9 @@
-import routes from '@/routes';
-import { Link } from 'umi';
-
-export default function Layout({ children }) {
+export default function ({ children }) {
   console.log('layouts');
+  debugger;
   return (
     <>
-      <ul>
-        {routes.map((item) => {
-          return (
-            <li>
-              <Link to={item.path}>{item.name}</Link>
-            </li>
-          );
-        })}
-      </ul>
+      <div>layouts</div>
       <div>{children}</div>
     </>
   );
