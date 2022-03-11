@@ -1,5 +1,5 @@
 import { PageContainer } from '@ant-design/pro-layout';
-import { Link } from '@umijs/preset-dumi/lib/theme';
+import { Link } from 'umi';
 export default () => {
   return (
     <PageContainer>
