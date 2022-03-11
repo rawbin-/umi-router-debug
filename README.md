@@ -1,2 +1,15 @@
-# umi-router-debug
-调试umi-router渲染过程
+# umi project
+
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```
